@@ -1,12 +1,12 @@
 // Funcao sem retorno
-function imprimirSona(a, b) {
+function imprimirSoma(a, b) {
     console.log(a + b)
 }
 
-imprimirSona(2, 3)
-imprimirSona(2)
-imprimirSona(2, 10, 4, 5, 6, 7, 8)
-imprimirSona()
+imprimirSoma(2, 3)
+imprimirSoma(2)
+imprimirSoma(2, 10, 4, 5, 6, 7, 8)
+imprimirSoma()
 
 // Funcao com retorno
 function soma(a, b = 1) {
